@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monastery360 - Ancient Wisdom, Digital Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Monastery360</a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Ancient Wisdom,<br>Digital Experience</h1>
+            <p>Explore Sikkim's sacred monasteries through immersive 360° virtual tours and discover centuries of preserved heritage</p>
+            <a href="#demo" class="cta-button">Begin Your Journey</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience the Sacred</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>360° Virtual Tours</h3>
+                    <p>Step inside ancient monasteries with stunning high-resolution virtual reality experiences. Explore every corner, from prayer halls to hidden chambers, all from the comfort of your home.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">📚</div>
+                    <h3>Digital Manuscript Library</h3>
+                    <p>Access rare Buddhist texts, ancient thangkas, and sacred artifacts digitally preserved for eternity. Our collection includes translations and scholarly annotations.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Smart Travel Integration</h3>
+                    <p>Planning a pilgrimage? Our mobile app provides offline maps, audio guides, festival calendars, and real-time monastery information to enhance your physical journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo -->
+    <section class="demo-section" id="demo">
+        <div class="demo-container">
+            <h2 class="section-title">Step Inside History</h2>
+            <p>Experience a preview of our immersive monastery tours</p>
+            <div class="demo-preview">
+                <!-- Interactive demo would go here -->
+            </div>
+            <a href="#" class="cta-button">Try Full Experience</a>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="impact">
+        <div class="container">
+            <h2 class="section-title fade-in">Preserving Heritage, Inspiring Future</h2>
+            <div class="stats-grid">
+                <div class="stat-card fade-in">
+                    <span class="stat-number">50+</span>
+                    <div class="stat-label">Monasteries Digitized</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <span class="stat-number">1000+</span>
+                    <div class="stat-label">Manuscripts Preserved</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <span class="stat-number">100K+</span>
+                    <div class="stat-label">Global Visitors</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <span class="stat-number">25+</span>
+                    <div class="stat-label">Languages Supported</div>
+                </div>
+            </div>
+            
+            <div class="fade-in" style="text-align: center; margin-top: 60px;">
+                <h3 style="font-size: 2rem; margin-bottom: 20px; color: #1a1a1a;">Bridging Ancient Wisdom with Modern Technology</h3>
+                <p style="font-size: 1.2rem; color: #6b7280; max-width: 800px; margin: 0 auto;">Monastery360 isn't just about preservation—it's about making Himalayan Buddhist culture accessible to researchers, spiritual seekers, and curious minds worldwide while supporting local communities through sustainable cultural tourism.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Monastery360</h3>
+                <p>Digitally preserving the sacred heritage of the Himalayas and making ancient wisdom accessible to the modern world.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#features">Features</a></p>
+                <p><a href="#demo">Virtual Demo</a></p>
+                <p><a href="#impact">Our Impact</a></p>
+                <p><a href="#">Partnership</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: hello@monastery360.com</p>
+                <p>Phone: +91 XXX XXX XXXX</p>
+                <p>Location: Sikkim, India</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">YouTube</a></p>
+                <p><a href="#">LinkedIn</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Monastery360. All rights reserved. | Preserving the past. Inspiring the future.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling and navigation effects
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            // Fade in animations on scroll
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Initial check for visible elements
+        window.addEventListener('load', () => {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
